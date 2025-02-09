@@ -8,6 +8,9 @@ const nextConfig = {
       },
     ],
   },
+  experimental: {
+    esmExternals: false, // Fixes potential ESM issues in .mjs
+  },
 };
 
 export default nextConfig;
